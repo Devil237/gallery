@@ -1,0 +1,24 @@
+#art {
+    text-align: center;
+}
+#gallery {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+#gallery li {
+    list-style: none;
+    float: left;
+    margin: 10px;
+    position: relative;
+
+}
+#gallery li:nth-child(3n+1) {
+    clear: both;
+}
+#gallery li img {
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+
